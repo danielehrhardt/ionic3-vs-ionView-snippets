@@ -1,0 +1,707 @@
+{
+  "ion-badge": {
+    "prefix": "ion2-badge",
+    "body": ["<ion-badge $1>$2</ion-badge>"],
+    "description": "Badges are small components that typically communicate a numerical value to the user. They are typically used within an item."
+  },
+  "ion-button": {
+    "prefix": "ion2-button",
+    "body": ["<button ion-button $1>$2</button>"]
+  },
+  "ion-button-outline": {
+    "prefix": "ion2-button-outline",
+    "body": ["<button ion-button outline $1>$2</button>"]
+  },
+  "ion-button-clear": {
+    "prefix": "ion2-button-clear",
+    "body": ["<button ion-button clear $1>$2</button>"]
+  },
+  "ion-button-round": {
+    "prefix": "ion2-button-round",
+    "body": ["<button ion-button round $1>$2</button>"]
+  },
+  "ion-button-block": {
+    "prefix": "ion2-button-block",
+    "body": ["<button ion-button block $1>$2</button>"]
+  },
+  "ion-button-full": {
+    "prefix": "ion2-button-full",
+    "body": ["<button ion-button full $1>$2</button>"]
+  },
+  "ion-button-small": {
+    "prefix": "ion2-button-small",
+    "body": ["<button ion-button small $1>$2</button>"]
+  },
+  "ion-button-large": {
+    "prefix": "ion2-button-large",
+    "body": ["<button ion-button large $1>$2</button>"]
+  },
+  "ion-button-icon-left": {
+    "prefix": "ion2-button-icon-left",
+    "body": [
+      "<button ion-button icon-left $1>",
+      "\t<ion-icon name=\"$2\"></ion-icon>",
+      "\t$3",
+      "</button>"
+    ]
+  },
+  "ion-button-icon-right": {
+    "prefix": "ion2-button-icon-right",
+    "body": [
+      "<button ion-button icon-right $1>",
+      "\t$2",
+      "\t<ion-icon name=\"$3\"></ion-icon>",
+      "</button>"
+    ]
+  },
+  "ion-button-icon-only": {
+    "prefix": "ion2-button-icon",
+    "body": [
+      "<button ion-button icon-only $1>",
+      "\t<ion-icon name=\"$2\"></ion-icon>",
+      "</button>"
+    ]
+  },
+  "ion-button-fab": {
+    "prefix": "ion2-fab",
+    "body": ["<button ion-fab $1>$2</button>"]
+  },
+  "ion-button-fab-mini": {
+    "prefix": "ion2-fab-mini",
+    "body": ["<button ion-fab mini $1>$2</button>"]
+  },
+  "ion-fab-buttons-list": {
+    "prefix": "ion2-fab-list",
+    "body": [
+      "<ion-fab $1>",
+      "\t<button ion-fab $2><ion-icon name=\"$3\"></ion-icon></button>",
+      "\t<ion-fab-list $4>",
+      "\t\t<button ion-fab><ion-icon name=\"$5\"></ion-icon></button>",
+      "\t</ion-fab-list>",
+      "</ion-fab>"
+    ]
+  },
+  "ion-buttons": {
+    "prefix": "ion2-buttons",
+    "body": [
+    "<ion-buttons ${1:position}>",
+    "\t$2",
+    "</ion-buttons>"
+    ]
+  },
+  "ion-buttons-start": {
+    "prefix": "ion2-buttons",
+    "body": [
+    "<ion-buttons start>",
+    "\t$1",
+    "</ion-buttons>"
+    ]
+  },
+  "ion-buttons-end": {
+    "prefix": "ion2-buttons",
+    "body": [
+    "<ion-buttons end>",
+    "\t$1",
+    "</ion-buttons>"
+    ]
+  },
+  "ion-card": {
+    "prefix": "ion2-card",
+    "body": [
+    "<ion-card>",
+    "\t<ion-card-header>",
+    "\t\t$1",
+    "\t</ion-card-header>",
+    "\t<ion-card-content>",
+    "\t\t$2",
+    "\t</ion-card-content>",
+    "</ion-card>"
+    ]
+  },
+  "ion-card-image": {
+    "prefix": "ion2-card-image",
+    "body": [
+    "<ion-card>",
+    "\t<img src=\"$1\"/>",
+    "\t<ion-card-content>",
+    "\t\t<ion-card-title>",
+    "\t\t\t$2",
+    "\t\t</ion-card-title>",
+    "\t\t<p>",
+    "\t\t\t$3",
+    "\t\t</p>",
+    "\t</ion-card-content>",
+    "</ion-card>"
+    ]
+  },
+  "ion-card-back-image": {
+    "prefix": "ion2-card-back-image",
+    "body": [
+    "<ion-card class=\"card-background-page\">",
+    "\t<img src=\"$1\"/>",
+    "\t<div class=\"card-title\">$2</div>",
+    "\t<div class=\"card-subtitle\">$3</div>",
+    "</ion-card>"
+    ]
+  },
+  "ion-card-social": {
+    "prefix": "ion2-card-social",
+    "body": [
+      "<ion-card>",
+      "\t<ion-item>",
+      "\t\t<ion-avatar item-left>",
+      "\t\t\t<img src=\"$1\">",
+      "\t\t</ion-avatar>",
+      "\t\t<h2>$2</h2>",
+      "\t\t<p>$3</p>",
+      "\t</ion-item>",
+      "\t<img src=\"$4\">",
+      "\t<ion-card-content>",
+      "\t\t<p>$5</p>",
+      "\t</ion-card-content>",
+      "\t<ion-row>",
+      "\t\t<ion-col>",
+      "\t\t\t<button ion-button icon-left clear small>",
+      "\t\t\t\t<ion-icon name=\"thumbs-up\"></ion-icon>",
+      "\t\t\t\t<div>$6</div>",
+      "\t\t\t</button>",
+      "\t\t</ion-col>",
+      "\t\t<ion-col>",
+      "\t\t\t<button ion-button icon-left clear small>",
+      "\t\t\t\t<ion-icon name=\"text\"></ion-icon>",
+      "\t\t\t\t<div>$7</div>",
+      "\t\t\t</button>",
+      "\t\t</ion-col>",
+      "\t\t<ion-col center text-center>",
+      "\t\t\t<ion-note>",
+      "\t\t\t\t$8",
+      "\t\t\t</ion-note>",
+      "\t\t</ion-col>",
+      "\t</ion-row>",
+      "</ion-card>"
+    ]
+  },
+  "ion-card-map": {
+    "prefix": "ion2-card-map",
+    "body": [
+      "<ion-card>",
+      "\t<img src=\"$1\">",
+      "\t<ion-fab right top>",
+      "\t\t<button ion-fab $2>",
+      "\t\t\t<ion-icon name=\"pin\"></ion-icon>",
+      "\t\t</button>",
+      "\t</ion-fab>",
+      "\t<ion-item>",
+      "\t\t<ion-icon name=\"$3\" item-left large $4></ion-icon>",
+      "\t\t<h2>$5</h2>",
+      "\t\t<p>$6</p>",
+      "\t</ion-item>",
+      "\t<ion-item>",
+      "\t\t<span item-left>${7:time-left}</span>",
+      "\t\t<span item-left>${8:distance}</span>",
+      "\t\t<button ion-button icon-left clear item-right $9>",
+      "\t\t\t<ion-icon name=\"navigate\"></ion-icon>",
+      "\t\t\t\t${10:start-navigate-text}",
+      "\t\t</button>",
+      "\t</ion-item>",
+      "</ion-card>"
+    ]
+  },
+  "ion-checkbox": {
+    "prefix": "ion2-checkbox",
+    "body": [
+      "<ion-item>",
+      "\t<ion-label>${1:label}</ion-label>",
+      "\t<ion-checkbox checked=\"${2:isChecked}\" $3></ion-checkbox>",
+      "</ion-item>"
+    ]
+  },
+  "ion-datetime": {
+    "prefix": "ion2-datetime",
+    "body": [
+      "<ion-item>",
+      "\t<ion-label>${1:label}</ion-label>",
+      "\t<ion-datetime displayFormat=\"$2\" pickerFormat=\"$3\" [(ngModel)]=\"$4\"></ion-datetime>",
+      "</ion-item>"
+    ]
+  },
+  "ion-grid": {
+    "prefix": "ion2-grid",
+    "body": [
+      "<ion-grid>",
+      "\t$1",
+      "</ion-grid>"
+    ]
+  },
+  "ion-row": {
+    "prefix": "ion2-row",
+    "body": [
+      "<ion-row>",
+      "\t$1",
+      "</ion-row>"
+    ]
+  },
+  "ion-col": {
+    "prefix": "ion2-col",
+    "body": [
+      "<ion-col $1>",
+      "\t$2",
+      "</ion-col>"
+    ]
+  },
+  "ion-col-10": {
+    "prefix": "ion2-col-10",
+    "body": [
+      "<ion-col width-10>",
+      "\t$1",
+      "</ion-col>"
+    ]
+  },
+  "ion-col-20": {
+    "prefix": "ion2-col-20",
+    "body": [
+      "<ion-col width-20>",
+      "\t$1",
+      "</ion-col>"
+    ]
+  },
+  "ion-col-25": {
+    "prefix": "ion2-col-25",
+    "body": [
+      "<ion-col width-25>",
+      "\t$1",
+      "</ion-col>"
+    ]
+  },
+  "ion-col-33": {
+    "prefix": "ion2-col-33",
+    "body": [
+      "<ion-col width-33>",
+      "\t$1",
+      "</ion-col>"
+    ]
+  },
+  "ion-col-50": {
+    "prefix": "ion2-col-50",
+    "body": [
+      "<ion-col width-50>",
+      "\t$1",
+      "</ion-col>"
+    ]
+  },
+  "ion-col-67": {
+    "prefix": "ion2-col-67",
+    "body": [
+      "<ion-col width-67>",
+      "\t$1",
+      "</ion-col>"
+    ]
+  },
+  "ion-col-75": {
+    "prefix": "ion2-col-75",
+    "body": [
+      "<ion-col width-75>",
+      "\t$1",
+      "</ion-col>"
+    ]
+  },
+  "ion-col-80": {
+    "prefix": "ion2-col-80",
+    "body": [
+      "<ion-col width-80>",
+      "\t$1",
+      "</ion-col>"
+    ]
+  },
+  "ion-col-90": {
+    "prefix": "ion2-col-90",
+    "body": [
+      "<ion-col width-90>",
+      "\t$1",
+      "</ion-col>"
+    ]
+  },
+  "ion-icon": {
+    "prefix": "ion2-icon",
+    "body": [
+      "<ion-icon name=\"$1\"></ion-icon>"
+    ]
+  },
+  "ion-icon-isactive": {
+    "prefix": "ion2-icon-isactive",
+    "body": [
+      "<ion-icon name=\"$1\" isActive=\"${2:isActive}\"></ion-icon>"
+    ]
+  },
+  "ion-input": {
+    "prefix": "ion2-input",
+    "body": [
+      "<ion-item>",
+      "\t<ion-label $1>$2</ion-label>",
+      "\t<ion-input type=\"$3\" $4></ion-input>",
+      "</ion-item>"
+    ]
+  },
+  "ion-input-fixed": {
+    "prefix": "ion2-input-fixed",
+    "body": [
+      "<ion-item>",
+      "\t<ion-label fixed $1>$2</ion-label>",
+      "\t<ion-input type=\"$3\" $4></ion-input>",
+      "</ion-item>"
+    ]
+  },
+  "ion-input-floating": {
+    "prefix": "ion2-input-floating",
+    "body": [
+      "<ion-item>",
+      "\t<ion-label floating $1>$2</ion-label>",
+      "\t<ion-input type=\"$3\" $4></ion-input>",
+      "</ion-item>"
+    ]
+  },
+  "ion-input-placeholder": {
+    "prefix": "ion2-input-placeholder",
+    "body": [
+      "<ion-item>",
+      "\t<ion-input type=\"$1\" placeholder=\"$2\" $3></ion-input>",
+      "</ion-item>"
+    ]
+  },
+  "ion-input-stacked": {
+    "prefix": "ion2-input-stacked",
+    "body": [
+      "<ion-item>",
+      "\t<ion-label stacked $1>${2: label-text}</ion-label>",
+      "\t<ion-input type=\"$3\" $4></ion-input>",
+      "</ion-item>"
+    ]
+  },
+  "ion-list": {
+    "prefix": "ion2-list",
+    "body": [
+      "<ion-list $1>",
+      "\t<ion-item *ngFor=\"let $2 of $3\" (click)=\"$4\" $5>",
+      "\t\t{{$6}}",
+      "\t</ion-item>",
+      "</ion-list>"
+    ]
+  },
+  "ion-list-no-lines": {
+    "prefix": "ion2-list-nolines",
+    "body": [
+      "<ion-list no-lines $1>",
+      "\t<ion-item *ngFor=\"let $2 of $3\" (click)=\"$4\" $5>",
+      "\t\t{{$6}}",
+      "\t</ion-item>",
+      "</ion-list>"
+    ]
+  },
+  "ion-list-inset": {
+    "prefix": "ion2-list-inset",
+    "body": [
+      "<ion-list inset $1>",
+      "\t<ion-item *ngFor=\"let $2 of $3\" (click)=\"$4\" $5>",
+      "\t\t{{$6}}",
+      "\t</ion-item>",
+      "</ion-list>"
+    ]
+  },
+  "ion-list-thumbnails": {
+    "prefix": "ion2-list-thumbnails",
+    "body": [
+      "<ion-list>",
+      "\t<ion-item *ngFor=\"let $1 of $2\" $3>",
+      "\t\t<ion-thumbnail item-left>",
+      "\t\t\t<img src=\"$4\">",
+      "\t\t</ion-thumbnail>",
+      "\t\t<h2>$5</h2>",
+      "\t\t<p>$6</p>",
+      "\t\t<button ion-button clear item-right (click)=\"$7\">$8</button>",
+      "\t</ion-item>",
+      "</ion-list>"
+    ]
+  },
+  "ion-list-sliding": {
+    "prefix": "ion2-list-sliding",
+    "body": [
+      "<ion-list>",
+      "\t<ion-item-sliding $1>",
+      "\t\t<ion-item $2>",
+      "\t\t\t$3",
+      "\t\t</ion-item>",
+      "\t\t<ion-item-options $4>",
+      "\t\t\t<button ion-button $5>",
+      "\t\t\t\t<ion-icon name=\"$6\"></ion-icon>",
+      "\t\t\t\t$7",
+      "\t\t\t</button>",
+      "\t\t</ion-item-options>",
+      "\t\t$8",
+      "\t</ion-item-sliding>",
+      "</ion-list>"
+    ]
+  },
+  "ion-list-item": {
+    "prefix": "ion2-item",
+    "body": [
+      "<ion-item $1>$2</ion-item>"
+    ]
+  },
+  "ion-list-item-group": {
+    "prefix": "ion2-list-item-group",
+    "body": [
+      "<ion-item-group>",
+      "\t$1",
+      "</ion-item-group>"
+    ]
+  },
+  "ion-list-item-divider": {
+    "prefix": "ion2-list-item-divider",
+    "body": [
+      "<ion-item-divider $1>",
+      "\t$2",
+      "</ion-item-divider>"
+    ]
+  },
+  "ion-list-item-header": {
+    "prefix": "ion2-list-item-header",
+    "body": [
+      "<ion-item-header>",
+      "\t$1",
+      "</ion-item-header>"
+    ]
+  },
+  "ion-list-item-avatar": {
+    "prefix": "ion2-list-item-avatar",
+    "body": [
+      "<ion-item $1>",
+      "\t<ion-avatar item-left>",
+      "\t\t<img src=\"$2\">",
+      "\t</ion-avatar>",
+      "\t<h2>$3</h2>",
+      "\t<p>$4</p>",
+      "</ion-item>"
+    ]
+  },
+  "ion-avatar": {
+    "prefix": "ion2-avatar",
+    "body": [
+      "<ion-avatar item-left>",
+      "\t<img src=\"$1\">",
+      "</ion-avatar>"
+    ]
+  },
+  "ion-menu": {
+    "prefix": "ion2-menu",
+    "body": [
+    "<ion-menu [content]=\"${1: contentVariable}\">",
+    "\t<ion-header>",
+    "\t\t<ion-toolbar>",
+    "\t\t\t<ion-title>$2</ion-title>",
+    "\t\t</ion-toolbar>",
+    "\t</ion-header>",
+    "\t<ion-content>",
+    "\t\t<ion-list $3>",
+    "\t\t\t<button ion-item (click)=\"openPage($4)\">",
+    "\t\t\t\t$5",
+    "\t\t\t</button>",
+    "\t\t\t$6",
+    "\t\t</ion-list>",
+    "\t</ion-content>",
+    "</ion-menu>",
+    "<ion-nav id=\"nav\" #$7 [root]=\"$8\"></ion-nav>"
+    ]
+  },
+  "ion-radio-group": {
+    "prefix": "ion2-radio-group",
+    "body": [
+      "<ion-list radio-group>",
+      "\t<ion-list-header>",
+      "\t\t$1",
+      "\t</ion-list-header>",
+      "\t<ion-item>",
+      "\t\t<ion-label>$2</ion-label>",
+      "\t\t<ion-radio checked=\"$3\" value=\"$4\"></ion-radio>",
+      "\t</ion-item>",
+      "\t$5",
+      "</ion-list>"
+    ]
+  },
+  "ion-radio-item": {
+    "prefix": "ion2-radio-item",
+    "body": [
+      "<ion-item>",
+      "\t<ion-label>$1</ion-label>",
+      "\t<ion-radio checked=\"$2\" value=\"$3\"></ion-radio>",
+      "</ion-item>"
+    ]
+  },
+  "ion-range": {
+    "prefix": "ion2-range",
+    "body": [
+      "<ion-item>",
+      "\t<ion-range min=\"$1\" max=\"$2\" step=\"$3\" snaps=\"$4\" dualKnobs=\"$5\" pin=\"$6\" [(ngModel)]=\"${7:model}\">",
+      "\t\t<ion-icon range-left small name=\"$8\"></ion-icon>",
+      "\t\t<ion-icon range-right name=\"$9\"></ion-icon>",
+      "\t</ion-range>",
+      "</ion-item>"
+    ]
+  },
+  "ion-search-bar": {
+    "prefix": "ion2-search-bar",
+    "body": [
+      "<ion-searchbar (ionInput)=\"$1\"></ion-searchbar>"
+    ]
+  },
+  "ion-segment": {
+    "prefix": "ion2-segment",
+    "body": [
+      "<ion-segment [(ngModel)]=\"$1\">",
+      "\t<ion-segment-button value=\"$2\">",
+      "\t\t$3",
+      "\t</ion-segment-button>",
+      "\t$4",
+      "</ion-segment>"
+    ]
+  },
+  "ion-segment-button": {
+    "prefix": "ion2-segment-button",
+    "body": [
+      "<ion-segment-button value=\"$1\">",
+      "\t$2",
+      "</ion-segment-button>"
+    ]
+  },
+  "ion-select": {
+    "prefix": "ion2-select",
+    "body": [
+    "<ion-item>",
+    "\t<ion-label>$1</ion-label>",
+    "\t<ion-select [(ngModel)]=\"$2\" multiple=\"$3\" $4>",
+    "\t\t<ion-option value=\"$5\" $6>$7</ion-option>",
+    "\t\t$8",
+    "\t</ion-select>",
+    "</ion-item>"
+    ]
+  },
+  "ion-select-option": {
+    "prefix": "ion2-select-option",
+    "body": [
+    "<ion-option value=\"$1\" $2>$3</ion-option>"
+    ]
+  },
+  "ion-slides": {
+    "prefix": "ion2-slides",
+    "body": [
+      "<ion-slides pager>",
+      "\t<ion-slide $1>",
+      "\t\t$2",
+      "\t</ion-slide>",
+      "\t$3",
+      "</ion-slides>"
+    ]
+  },
+  "ion-slide": {
+    "prefix": "ion2-slide",
+    "body": [
+      "<ion-slide>",
+      "\t$1",
+      "</ion-slide>"
+    ]
+  },
+  "ion-tabs": {
+    "prefix": "ion2-tabs",
+    "body": [
+      "<ion-tabs>",
+      "\t<ion-tab tabTitle=\"$1\" [root]=\"$2\" $3></ion-tab>",
+      "\t$4",
+      "</ion-tabs>"
+    ]
+  },
+  "ion-tabs-icons": {
+    "prefix": "ion2-tabs-icons",
+    "body": [
+      "<ion-tabs>",
+      "\t<ion-tab tabIcon=\"$1\" [root]=\"$2\" $3></ion-tab>",
+      "\t$4",
+      "</ion-tabs>"
+    ]
+  },
+  "ion-tabs-icons-text": {
+    "prefix": "ion2-tabs-icons-text",
+    "body": [
+      "<ion-tabs>",
+      "\t<ion-tab tabIcon=\"$1\" tabTitle=\"$2\" [root]=\"$3\"></ion-tab>",
+      "\t$3",
+      "</ion-tabs>"
+    ]
+  },
+  "ion-tab": {
+    "prefix": "ion2-tab",
+    "body": [
+      "<ion-tab tabTitle=\"$1\" [root]=\"$2\" $3></ion-tab>"
+    ]
+  },
+  "ion-tab-icon": {
+    "prefix": "ion2-tab-icon",
+    "body": [
+      "<ion-tab tabIcon=\"$1\" [root]=\"$2\" $3></ion-tab>"
+    ]
+  },
+  "ion-tab-icon-text": {
+    "prefix": "ion2-tab-icon-text",
+    "body": [
+      "<ion-tab tabIcon=\"$1\" tabTitle=\"$2\" [root]=\"$3\" $4></ion-tab>"
+    ]
+  },
+  "ion-toogle": {
+    "prefix": "ion2-toogle",
+    "body": [
+      "<ion-item>",
+      "\t<ion-label>$1</ion-label>",
+      "\t<ion-toggle checked=\"$2\" $3></ion-toggle>",
+      "</ion-item>"
+    ]
+  },
+  "ion-toogle-disabled": {
+    "prefix": "ion2-toogle-disabled",
+    "body": [
+      "<ion-item>",
+      "\t<ion-label>$1</ion-label>",
+      "\t<ion-toggle checked=\"$2\" disabled $3></ion-toggle>",
+      "</ion-item>"
+    ]
+  },
+  "ion-toolbar": {
+    "prefix": "ion2-toolbar",
+    "body": [
+    "<ion-toolbar $1>",
+    "\t$2",
+    "</ion-toolbar>"
+    ]
+  },
+  "ion-header": {
+    "prefix": "ion2-header",
+    "body": [
+    "<ion-header>",
+    "\t$1",
+    "</ion-header>"
+    ]
+  },
+  "ion-footer": {
+    "prefix": "ion2-footer",
+    "body": [
+    "<ion-footer>",
+    "\t$1",
+    "</ion-footer>"
+    ]
+  },
+  "ion-navbar": {
+    "prefix": "ion2-navbar",
+    "body": [
+    "<ion-navbar $1>",
+    "\t<ion-title>${2:title}</ion-title>",
+    "</ion-navbar>"
+    ]
+  }
+}
