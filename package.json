@@ -4,7 +4,7 @@
   "displayName": "Ionic 2 snippets",
   "description": "VS code snippets for Ionic 2 components",
   "main": "index.js",
-  "icon": "./icon.png",
+  "icon": "icon.png",
   "bugs": {
     "url": "https://github.com/oudzy/Ionic2-snippets/issues"
   },
