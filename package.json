@@ -5,6 +5,14 @@
   "description": "VS code snippets for Ionic 2 components",
   "main": "index.js",
   "icon": "./icon.png",
+  "bugs": {
+    "url": "https://github.com/oudzy/Ionic2-snippets/issues"
+  },
+  "homepage": "https://github.com/oudzy/Ionic2-snippets/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oudzy/Ionic2-snippets.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
