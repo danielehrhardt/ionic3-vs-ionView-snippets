@@ -1,0 +1,42 @@
+{
+  "name": "ionic2-snippets",
+  "version": "1.0.0",
+  "displayName": "Ionic 2 snippets",
+  "description": "VS code snippets for Ionic 2 components",
+  "main": "index.js",
+  "icon": "./icon.png",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Ionic",
+    "HTML",
+    "snippet"
+  ],
+  "author": "oudZy",
+  "publisher": "oudZy",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Snippets",
+    "Languages",
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:html"
+  ],
+  "galleryBanner": {
+    "color": "#ffffff",
+    "theme": "light"
+  }, 
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/html.json"
+      }
+    ]
+  }
+}
