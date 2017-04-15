@@ -1,28 +1,28 @@
 {
-  "name": "ionic2-snippets",
+  "name": "ionic3-vs-ionView-snippets",
   "version": "1.0.0",
-  "displayName": "Ionic 2 snippets",
-  "description": "VS code snippets for Ionic 2 components",
+  "displayName": "Ionic 3 ionView Snippets",
+  "description": "VS code snippets for Ionic 3 ionView",
   "main": "index.js",
-  "icon": "icon.png",
+  "icon": "ionic3-vs-ionView-snippets.png",
   "bugs": {
-    "url": "https://github.com/oudzy/Ionic2-snippets/issues"
+    "url": "https://github.com/danielehrhardt/ionic3-vs-ionView-snippets/issues"
   },
-  "homepage": "https://github.com/oudzy/Ionic2-snippets/blob/master/README.md",
+  "homepage": "https://github.com/danielehrhardt/ionic3-vs-ionView-snippets/blob/master/README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/oudzy/Ionic2-snippets.git"
+    "url": "https://github.com/danielehrhardt/ionic3-vs-ionView-snippets.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "Ionic",
-    "HTML",
+    "ionView",
     "snippet"
   ],
-  "author": "oudZy",
-  "publisher": "oudZy",
+  "author": "danielehrhardt",
+  "publisher": "danielehrhardt",
   "license": "MIT",
   "engines": {
     "vscode": "^1.0.0"
