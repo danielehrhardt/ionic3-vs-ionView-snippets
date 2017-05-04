@@ -1,6 +1,6 @@
 {
   "name": "ionic3-vs-ionView-snippets",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Ionic 3 ionView Snippets",
   "description": "VS code snippets for Ionic 3 ionView",
   "main": "index.js",
@@ -33,18 +33,16 @@
     "Other"
   ],
   "activationEvents": [
-    "onLanguage:html"
+    "onLanguage:typescript"
   ],
   "galleryBanner": {
     "color": "#ffffff",
     "theme": "light"
-  }, 
+  },
   "contributes": {
-    "snippets": [
-      {
-        "language": "html",
-        "path": "./snippets/html.json"
-      }
-    ]
+    "snippets": [{
+      "language": "typescript",
+      "path": "./snippets/snippets.json"
+    }]
   }
 }
