@@ -24,6 +24,14 @@
       "}"
     ]
   },
+  "ionViewWillLeave": {
+    "prefix": "ionViewWillLeave",
+    "body": [
+      "ionViewWillLeave(){",
+      " ",
+      "}"
+    ]
+  },
   "ionViewDidLeave": {
     "prefix": "ionViewDidLeave",
     "body": [
@@ -44,6 +52,14 @@
     "prefix": "ionViewCanEnter",
     "body": [
       "ionViewCanEnter(){",
+      " ",
+      "}"
+    ]
+  },
+  "ionViewCanLeave": {
+    "prefix": "ionViewCanLeave",
+    "body": [
+      "ionViewCanLeave(){",
       " ",
       "}"
     ]
