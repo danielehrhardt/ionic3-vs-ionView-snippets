@@ -6,6 +6,8 @@ Install in Visual Studio Code. Search for "Ionic 3 ionView Snippets"
     * ionViewDidLoad
     * ionViewWillEnter
     * ionViewDidEnter
+    * ionViewWillLeave
     * ionViewDidLeave
     * ionViewWillUnload
     * ionViewCanEnter
+    * ionViewCanLeave
