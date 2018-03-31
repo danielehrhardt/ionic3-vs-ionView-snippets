@@ -1,6 +1,6 @@
 {
   "name": "ionic3-vs-ionView-snippets",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "Ionic 3 ionView Snippets",
   "description": "VS code snippets for Ionic 3 ionView",
   "main": "index.js",
@@ -29,7 +29,6 @@
   },
   "categories": [
     "Snippets",
-    "Languages",
     "Other"
   ],
   "activationEvents": [
